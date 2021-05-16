@@ -1,3 +1,3 @@
 # bfh-tinkerhub
 
-Repo for tinkerhub build from home project
+Repo for tinkerhub build from home project.
