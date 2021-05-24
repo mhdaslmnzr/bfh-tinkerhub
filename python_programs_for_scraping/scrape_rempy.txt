@@ -1,0 +1,6 @@
+
+import requests
+
+file = open("file2.txt","r")
+
+ls = file.readlines()
