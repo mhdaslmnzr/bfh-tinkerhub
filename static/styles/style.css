@@ -1,0 +1,42 @@
+body 
+{
+  height: 100%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f7f1e3;
+  color: white;
+  text-align: center;
+}
+
+
+.topq {
+  /*overflow: hidden;*/
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  left: 0;
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  text-align: center;
+  color: white;
+  float: top;
+  height: 50px
+}
+
+.topqb {
+  /*overflow: hidden;*/
+  background-color: #b2bec3;
+   /* Set the navbar to fixed position */
+  left: 0;
+  margin-top: 50px; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  text-align: center;
+  color: black;
+  float: top;
+}
+
+

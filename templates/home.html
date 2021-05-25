@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %} Lalettan - Mammookka Classifier || Home{% endblock %}
+
+{% block nav %} <h1>Lalettan - Mammookka :classifier</h1> {% endblock %}
+{% block navb %} Works for images with multiple faces {% endblock %}
+
+
+{% block content %}
+
+  <div class="border border-light p-3 mb-4">
+  		
+      <div class="d-flex align-items-center justify-content-center" style="height: 350px">
+
+     	<form method="post" action ="#" enctype="multipart/form-data">
+     	<input type="file" name="file_uploaded">
+        <input type="submit" value="Upload">
+
+		</form>
+
+	
+</div>
+ <div class="d-flex align-items-center justify-content-center">
+{% for i,k in cont_imgr: %}
+	<p>Its {{i}} ==> </p>
+	<div style = "inline">
+		<img src = {{k}}>
+	</div>	
+		
+{% endfor %}		
+
+{{msg}}
+</div>
+
+</div>
+
+
+
+{% endblock %}
+
+{% block secondcontent %}
+
+
+{% endblock %}
+
+{% block footer %}
+<font color= #2c2c54> Developed for Tinkerhub build from home : by Team</font> <font  color=#78e08f> #include </font>
+{% endblock %}
