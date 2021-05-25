@@ -4,7 +4,7 @@ This is an image classifier for popular malayalam actors lalettan and mammookka.
 Uses [ageitgey|face_recognition](https://github.com/ageitgey/face_recognition) to detect faces and to build face encodings.  Classifier used is [SVM](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html) classsifier.  
 Pretrained model was trained using [this](https://drive.google.com/drive/folders/1cAXZYF77T110ewctVQMWZrXeffsQM1Zb?usp=sharing) dataset.
 Works on images that has both the actors in it.  
-[Live App](https://ettan-ikka-classifier.herokuapp.com/)
+[Live link to test our Web App](https://ettan-ikka-classifier.herokuapp.com/)
 ## Team members
 1. [Mohammed Aslam](https://github.com/dpjr47)
 2. [Sagar Krishna](https://github.com/sagarkrishna1729)
